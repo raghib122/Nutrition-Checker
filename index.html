@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nutrition Checker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="nutrition.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Check the Nutrition value of your food!</h1>
+        <p>Discover nutrition at your fingertips!  From recipes to menus, get accurate calorie, fat, protein, and more for your favorite dishes. Empower yourself with knowledge about your food effortlessly.</p>
+    </header>
+
+    <main>
+        <div class="input-container">
+            <label for="query">Enter your text:</label>
+            <input type="text" id="query" placeholder="e.g., 1lb brisket and fries">
+            <button id="submit-btn">Get Nutrition Information</button>
+        </div>
+
+        <div id="result-container">
+            <!-- Nutrition information will be displayed here -->
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
